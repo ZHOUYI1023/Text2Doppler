@@ -1,0 +1,22 @@
+{
+    "radar_parameters": {
+        "c": 299792458,
+        "BW": 4000000000,
+        "start_freq": 77000000000,
+        "numADC": 256,
+        "NPpF": 256,
+        "frameDuration": 0.02,
+        "d_rx": 0.15,
+        "d_tx": 0.6,
+        "powerTx": 30
+    },
+   "signal_processing": {
+        "numTX": 1,
+        "numRX": 1,
+        "nfft": 256,
+        "window": 256,
+        "noverlap": 200,
+        "butterworth_order": 4,
+        "butterworth_cutoff": 0.0075
+    }
+}
